@@ -1,14 +1,18 @@
 <snippet>
 	<content><![CDATA[
-Shader "Temp/Basic" {
-	Properties {
-
+Shader "Temp/Basic" 
+{
+	Properties 
+	{
+		
 	}
-	SubShader {
-	$0
+	SubShader 
+	{
+		Tags {  }
+		$0
 	}
 
-	Fallback \"Diffuse\"
+	Fallback "Diffuse"
 }
 ]]></content>
 	<tabTrigger>Shader</tabTrigger>
